@@ -15,6 +15,7 @@
 #        Bash: PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 #        ZSH:  setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
 #        the optional argument will be used as format string.
+
 #    3b) Alternatively, for a slightly faster prompt, __git_ps1 can
 #        be used for PROMPT_COMMAND in Bash or for precmd() in Zsh
 #        with two parameters, <pre> and <post>, which are strings
